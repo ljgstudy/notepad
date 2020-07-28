@@ -106,5 +106,9 @@
 #### 4、环绕执行模式
 
 - 资源处理（例如处理文件或者数据库）时一个常见的模式就是打开一个资源，做一些处理，然后关闭资源。这个设置和清理阶段总是很类似，并且会围绕着执行处理的那些重要代码，这就是所谓的环绕执行（execute around）模式。
-- 
 
+  ![image-20200728111214770](https://ali-oss-file-bucket.oss-cn-shanghai.aliyuncs.com/image-20200728111214770.png)
+
+- 应用环绕执行模式所采用的四个步骤
+
+  ![image-20200728111847559](https://ali-oss-file-bucket.oss-cn-shanghai.aliyuncs.com/image-20200728111847559.png)
