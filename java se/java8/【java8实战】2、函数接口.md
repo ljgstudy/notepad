@@ -116,13 +116,28 @@
 #### 5、JDK内置的函数式接口
 
 - Predicate
+
   - java.util.function.Predicate<T>
   - 接口定义了一个名叫test的抽象方法
+
 - Consumer
+
   - java.util.funciton.Consumer<T>
   - 接口定义了一个名叫accept的抽象方法
   - 如果需要访问类型T的对象，并对其执行某些操作，就可以使用这个接口
+
 - Function
+
   - java.util.function.Function<T, R>
   - 接口定义了一个apply的抽象方法
   - 接受一个泛型T的对象，并返回一个泛型R的对象。可以定义一个Lambda，将输入对象的信息映射到输出
+
+- Java8中常用的函数式接口
+
+  ![image-20200728133554967](https://ali-oss-file-bucket.oss-cn-shanghai.aliyuncs.com/image-20200728133554967.png)
+
+  ![image-20200728133621150](https://ali-oss-file-bucket.oss-cn-shanghai.aliyuncs.com/image-20200728133621150.png)
+
+- Java8函数式接口的例子
+
+  ![image-20200728133704933](https://ali-oss-file-bucket.oss-cn-shanghai.aliyuncs.com/image-20200728133704933.png)
