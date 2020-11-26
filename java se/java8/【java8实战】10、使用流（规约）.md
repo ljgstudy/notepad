@@ -20,9 +20,9 @@ System.out.println("multi result: " + multi
 
 #### 2、最大值和最小值
 
+```java
+// 最大值
+Optional<Integer> max = numbers.stream().reduce(Integer::max);
+// 最小值
+Optional<Integer> min = numbers.stream().reduce(Integer::min);
 ```
-
-```
-
-
-
